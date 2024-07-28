@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Malgun Goth';
+}.card{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}h1{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family:  'Rockwell';
+    color: rgb(59, 58, 58);
+}.services{
+    display: flex;
+    align-items: center;
+}.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all .3s ease;
+    text-align: justify;
+}.content:hover{
+    color: white;
+}.content:hover a{
+   border-color: white; 
+   background: white;
+}.content-1:hover{
+   border-color: #1da1f2;
+   background: #1da1f2;
+}.content-1:hover a{
+    color: #1da1f2;
+   
+ }.content-2:hover{
+    border-color: #e1306c;
+    background: #e1306c;
+ }.content-2:hover a{
+     color:#e1306c;
+    
+  }.content-3:hover{
+    border-color: #ff0000;
+    background: #ff0000;
+ }.content-3:hover a{
+     color: #ff0000;
+    
+  }
+.fab{
+    font-size: 70px;
+    margin: 16px 0;
+    position: relative;
+    left: 80px;
+}.content >*{
+    flex: 1 1 100%;
+}h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    left: 50px;
+}.content p{
+    font-size: 17px;
+    font-family: Arial;
+}a{
+    margin:22px 0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 15px 0;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    transition: .3s ease;
+}a:hover{
+    border-radius: 4px;
+}body{
+    background: linear-gradient(to bottom right,rgb(129, 215, 243),rgb(221, 233, 244));
+   
+}
